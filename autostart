@@ -1,0 +1,9 @@
+@unclutter
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+#@xscreensaver -no-splash
+#Disable screensaver:
+@xset s noblank 
+@xset s off 
+@xset -dpms
+@chromium-browser --incognito --kiosk https://heg-portal.de/iserv/public/infodisplay
