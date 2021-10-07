@@ -1,0 +1,1 @@
+1 30 4 * * * sh /home/pi/rpi-infobildschirm/update.sh 2>/home/pi/logs/cronlog 
